@@ -1,0 +1,35 @@
+canonical_identifier: bkk:krp/KR3i0011/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR3i0011/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 墨經
+  date: '2015-08-24 23:17:30.814877'
+  source:
+    repository: kanripo
+    path: KR3i0011
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR3i0011_000-WYG.yaml, hash: 'sha256:7878dbd7af6ef6031f1eb3050e68dcbf9b0e7b39c3350e1d5b26e0076d10eee0'}
+  - {seq: 1, filename: KR3i0011_001-WYG.yaml, hash: 'sha256:26f212d3338c7d8e0d0b2a52e5d4712c49edd404dad38adc57536f8233c0b49a'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3i0011_001-WYG.markers.yaml, hash: 'sha256:2944b48bae9fbeff94148bdb93f7e7741929eed804641d60fbb8ea557bce4b25'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3i0011_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 3175
+  label: 墨經
+  type: section
+  level: 1
+hash: sha256:1651120396c05f4eaf8fff13b22d7cb4034c19602745153c581767747b5cc619

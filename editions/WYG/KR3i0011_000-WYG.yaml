@@ -1,0 +1,18 @@
+canonical_identifier: bkk:krp/KR3i0011/WYG/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 墨經
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+  date: '2015-08-24 23:17:30.814877'
+  source:
+    repository: kanripo
+    path: KR3i0011/KR3i0011_000.txt
+hash: sha256:7878dbd7af6ef6031f1eb3050e68dcbf9b0e7b39c3350e1d5b26e0076d10eee0

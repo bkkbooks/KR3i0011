@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR3i0011/v1
+canonical_location: https://kanripo.org/bkk/KR3i0011/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 墨經
+  identifiers:
+    krp: KR3i0011
+  tags:
+    tls-internal: swl
+    kr-categories: KR3i
+  source:
+    repository: tls-texts
+    path: data/tls/KR3i0011.xml
+  edition:
+    short: bkk
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+- short: krp
+- short: tls
+assets:
+  parts:
+  - {seq: 1, filename: KR3i0011_001.yaml, hash: 'sha256:643513a7ab57748c0906026ef10bb7300e2c4722c4fa71f775e46b9b0be19136'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3i0011_001.markers.yaml, hash: 'sha256:5991d5453dc72efe51c5a3eacd754ff30e8746bf9566d43fc51f690d38f40f12'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: ''
+    span:
+    - body
+    - 0
+    - 8498
+  label: ''
+  type: section
+  level: 1
+hash: sha256:55fa5a20569a9a422d74099318839c7ef63c82d8382bdebba8450779885bfd10
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
